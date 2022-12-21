@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Info</title>
+    <link rel="stylesheet" href="admintest.css">
+</head>
+<body>
+  
+    <!-- reuse -->
+    <nav class="navbar">
+        <div class="container1">
+            <div class="logo">
+                Package Delivery Company
+            </div>
+
+            <ul class="nav">
+                <li><a href="index.html">Home</a></li>
+
+                <li><a href="index.html">Log Out</a></li>
+
+                <li><a href="2admin.html">Go Back!</a></li>
+                <!-- GO BACK BUTTON -->
+                
+            </ul>
+        </div>
+    </nav>
+
+  
+    <!-- reuse -->
+
+    <h1>Add/Edit/Remove User</h1>
+
+    <div class="mainsection">
+
+        <section class="boxes">
+            <div class="container">
+
+                <div class="blob"></div>
+                <div class="card">
+                    <!-- <h2>New Customer </h2>
+                    <h3>Add new Customer</h3>
+                    <button class="btn"><a href="#">Add new Customer</a> </button>
+                    <p><a href="report.html">Reports</a></p> -->
+                    <h2>Add New User</h2>
+                    <div id="addFieldU" method="post" action="/Admin">
+                        <form id="add_User_form">
+                
+                            <label for="Uid_add"><b>User ID: </b></label>
+                            <br>
+                            <input type="text" placeholder="Enter UserID" name="Uid_add" required>
+                            <br>
+                            <br>
+                            <label for="fname_add"><b>First Name: </b></label>
+                            <br>
+                            <input type="text" placeholder="Enter First name" name="fname_add" required>
+                            <br>
+                            <br>
+                            <label for="lname_add"><b>Last Name: </b></label>
+                            <br>
+                            <input type="text" placeholder="Enter Last name" name="lname_add" required>
+                            <br><br>
+                            <label for="passwordAddC"><b>Password: </b></label>
+                            <br>
+                            <input type="text" placeholder="Enter Password" name="passwordAddC" required>
+                            <br><br>
+                            <label for="email_add"><b>Email: </b></label>
+                            <br>
+                            <input type="text" placeholder="Enter email" name="email_add" required>
+                            <br>
+                            <br>
+                            <label for="mobile_add"><b>Mobile Number: </b></label>
+                            <br>
+                            <input type="text" placeholder="Enter a mobile number" name="mobile_add" required>
+                            <br>
+                            <br>
+                
+                        </form>
+                        <button class="btn"><a href="#">Add as an Employee</a> </button>
+                        <button class="btn"><a href="#">Add as a Customer</a> </button>
+                      
+                    </div>
+                
+                </div>
+    
+                <div class="card">
+                    <h2>Delete User </h2>
+                    
+                    <label for="mobile_add"><b>User ID: </b></label>
+                            <br>
+                            <input type="text" placeholder="Enter User Id to be deleted" name="mobile_add" required>
+                            <br>
+                            <br>
+                    <button class="btn"><a href="#">Delete User</a> </button>
+                    <!-- <p><a href="customerinfo.html">Customer Info</a></p> -->
+                </div>
+    
+                
+    
+        
+    
+        </section>
+        </div>
+
+</body>
+</html>

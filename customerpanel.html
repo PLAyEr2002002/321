@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Panel</title>
+    <link rel="stylesheet" href="admintest.css">
+</head>
+<body>
+
+    <!-- reuse -->
+    <nav class="navbar">
+        <div class="container1">
+            <div class="logo">
+                Swift Delivery
+            </div>
+
+            <ul class="nav">
+                <li><a href="index.html">Home</a></li>
+
+                <li><a href="index.html">Log Out</a></li>
+                
+                <li><a href="index.html">Go Back!</a></li>
+                <!-- GO BACK BUTTON -->
+            </ul>
+        </div>
+    </nav>
+
+
+    <!-- reuse -->
+
+
+    <h1>Customer Panel</h1>
+    <h1 style="font-size:30px;">Welcome Mr."x"</h1>
+    <div class="mainsection">
+
+        <section class="boxes">
+            <div class="container">
+
+
+                <div class="blob"></div>
+
+
+                <div class="card">
+                    <h2 class="title">All Packages</h2>
+                    <h3 class="subtitle">Get a list of all your packages</h3>
+                    <button class="btn"><a href="3report.html">Get Package list</a> </button>
+                    <!-- <p><a href="report.html">Reports</a></p> -->
+                </div>
+    
+                <div class="card">
+                    <!-- <h2 class="title">Customer</h2>
+                    <h3 class="subtitle">Edit Customer info</h3>
+                    <button class="btn"><a href="10customerinfo.html">Customer Info</a> </button>
+                    <p><a href="customerinfo.html">Customer Info</a></p> -->
+
+                    <!--  Update personal information-->
+                    <h2 class="title">Update personal information</h2>
+                    <div >
+
+                        <form  method="post" action="">
+
+                            <label for="psw_up"><b>Password: </b></label>
+                            <input type="text" placeholder="Enter Password" name="psw_up" required>
+                            <br>
+                            <br>
+                            <label for="email_up"><b>Email: </b></label>
+                            <input type="email" placeholder="Enter Email to update" name="email_up">
+
+                            <br>
+                            <br>
+                            <label for="mob_up"><b>Mobile: </b></label>
+                            <input type="text" placeholder="Enter Mobile to update" name="mob_up">
+                            <br> <br>
+                            
+                            <button class="btn"><a href="#">Update Information</a> </button>
+                            <br>
+                        </form>
+                    </div>
+                </div>
+    
+                <div class="card">
+                    <!-- <h2 class="title">Packages</h2>
+                    <h3 class="subtitle">Edit Packages info</h3>
+                    <button class="btn"><a href="11packagesinfo.html">Packages Info</a> </button>
+                    <p><a href="packagesinfo.html">Packages Info</a></p> -->
+
+                    <h2 class="title">Search for Package Using status</h2>
+                    <div >
+                        <form  method="post" action="">
+                            <h2 style="font-size: 20px;">Choose the Status: </h2>
+                            <input type="radio" id="in transit_" name="statusTB_" value="in transit" checked required>
+                            <label for="in transit_">Delivered<br></label>
+                            <br>
+                            <input type="radio" id="delivered_" name="statusTB_" value="delivered" required>
+                            <label for="delivered_">In Transit<br></label>
+                            <br>
+                            <input type="radio" id="lost_" name="statusTB_" value="lost" required>
+                            <label for="lost_">Damaged<br><br></label>
+                            <input type="radio" id="damaged_" name="statusTB_" value="damaged" required>
+                            <label for="damaged_">Lost</label>
+                            <br />
+                            <br>
+                        </form>
+                        <button class="btn"><a href="#">Search for Package</a> </button>
+
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+    
+           <div class="blob"></div>
+    
+        </section>
+        </div>
+<!-- 
+
+    <div class="container">
+        <div class="card">
+          <h1 class="title">Designed For Work</h1>
+          <p class="subtitle">Introducing the first ever 5G enabled tablet. You've got a tablet that
+            let's you play harder and work smarter.</p>
+          <button class="btn">Get Started</button>
+        </div>
+        <div class="blob"></div>
+      </div> -->
+
+</body>
+</html>
+
+

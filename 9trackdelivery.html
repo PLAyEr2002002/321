@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Track Delivery</title>
+    <link rel="stylesheet" href="admintest.css">
+</head>
+<body>
+    
+    
+    <!-- reuse -->
+    <nav class="navbar">
+        <div class="container1">
+            <div class="logo">
+                Package Delivery Company
+            </div>
+
+            <ul class="nav">
+                <li><a href="index.html">Home</a></li>
+
+                <li><a href="index.html">Log Out</a></li>
+
+                <li><a href="3report.html">Go Back!</a></li>
+                <!-- GO BACK BUTTON -->
+                
+            </ul>
+        </div>
+    </nav>
+    <!-- reuse -->
+
+
+    <h1>Track Delivery</h1>
+
+    <div class="mainsection">
+
+        <section class="boxes">
+            <div class="container">
+
+                <div class="blob"></div>
+
+                <div class="card">
+                    <!-- <h2 class="title">Route</h2> -->
+                    <h3 class="subtitle"></h3>
+                    <form id="TraceBackForm" method="post" action="/Admin">
+                        <label for="TraceID"><b>Enter Category: </b></label>
+                        <input type="text" placeholder="Category" name="TraceID" required>
+<br>
+                        <label for="TraceID"><b>Enter Status: </b></label>
+                        <input type="text" placeholder="Status" name="TraceID" required>
+<br>
+                        <label for="TraceID"><b>Enter City: </b></label>
+                        <input type="text" placeholder="City" name="TraceID" required>
+                    </form>
+                    <br>
+                    <button class="btn"><a href="">Find</a> </button>
+                    <!-- <p><a href="report.html">Reports</a></p> -->
+                </div>              
+    
+        </section>
+        </div>
+
+
+</body>
+</html>

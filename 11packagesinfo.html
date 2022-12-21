@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Packages Info</title>
+    <link rel="stylesheet" href="admintest.css">
+</head>
+<body>
+      <!-- reuse -->
+    <nav class="navbar">
+        <div class="container1">
+            <div class="logo">
+                Package Delivery Company
+            </div>
+
+            <ul class="nav">
+                <li><a href="index.html">Home</a></li>
+
+                <li><a href="index.html">Log Out</a></li>
+
+                <li><a href="2admin.html">Go Back!</a></li>
+                <!-- GO BACK BUTTON -->
+                
+            </ul>
+        </div>
+    </nav>
+
+  
+    <!-- reuse -->
+
+    <h1>Packages Info</h1>
+
+    <div class="mainsection">
+
+        <section class="boxes">
+            <div class="container">
+
+                <div class="blob"></div>
+                
+                <div class="card">
+                    <h2>New Package </h2>
+                    <!-- <h3>Add new Package</h3>
+                    <button class="btn"><a href="12newpackage.html">Add new Package</a> </button>
+                    <p><a href="report.html">Reports</a></p> -->
+
+
+                    <div >
+                        <form id="add_Package_form" method="post" action="/Admin">
+                
+                            
+                
+                            <label for="Pid_add"><b>Package ID: </b></label> 
+                            <br><br>
+                            <input type="text" placeholder="Enter PackegeID" name="Pid_add" required>
+                            <br><br>
+
+                            <label for="Dimensions_add"><b>Dimensions: </b></label>
+                            <br><br>
+                            <input type="text" placeholder="Enter the Dimensions" name="Dimensions_add" required>
+                            <br><br>
+
+                            <label for="Weight_add"><b>Weight: </b></label>
+                            <br><br>
+                            <input type="text" placeholder="Enter the Weight" name="Weight_add" required>
+                            <br><br>
+                            
+                
+                            <label for="Value_add"><b>Value: </b></label>
+                            <br><br>
+                            <input type="text" placeholder="Enter the Value" name="Value_add" required>
+                            <br><br>
+
+                            <label for="IA_add"><b>Insurance amount: </b></label>
+                            <br><br>
+                            <input type="text" placeholder="Enter the Insurance amount of the package" name="IA_add" required>
+                            <br><br>
+
+                            <label for="retailID_add"><b>Retail ID: </b></label>
+                            <br><br>
+                            <input type="text" placeholder="Enter retailID For adding" name="retailID_add" required>
+                            <br><br>
+
+                            <label for="location_id_add"><b>Location ID: </b></label>
+                            <br><br>
+                            <input type="text" placeholder="Enter location ID For adding" name="location_id_add" required>
+                            <br><br>
+                
+                            
+
+                            <label for="Expected_add"><b>Expected date for delivery: </b></label>
+                            <br><br>
+                            <input type="date" name="Expected_add" required>
+                            <br><br>
+                
+                            <br>
+                            <label for="Final_add"><b>Final date for delivery: </b></label>
+                            <br><br>
+                            <input type="date" name="Final_add" required>
+                
+                
+                            
+                
+                            <p>Choose the Category of product: </p>
+                            <input type="radio" id="chemical" name="Category_add" value="chemical" required>
+                            <label for="chemical">Chemical</label>
+                            <br><br>
+                            <input type="radio" id="regular" name="Category_add" value="regular" required>
+                            <label for="regular">Normal<br></label><br>
+
+
+                            <input type="radio" id="fragile" name="Category_add" value="fragile" required>
+                            <label for="fragile">Fragile<br></label><br>
+
+
+                            <input type="radio" id="liquid" name="Category_add" value="liquid" required>
+                            <label for="liquid">Liquid<br><br></label>
+               
+                            
+                            <button class="btn"><a href="#">New Package</a> </button>
+                
+                        </form>
+                    </div>
+                </div>
+    
+                <div class="card">
+                    <h2>Delete Package </h2>
+                    <!-- <h3>Delete Package</h3> -->
+                    <label for="location_id_add"><b>Package ID : </b></label>
+                            <br><br>
+                            <input type="text" placeholder="Enter package ID to be deleted" name="location_id_add" required>
+                            <br><br>
+                    <button class="btn"><a href="13deletepackage.html">Delete Package</a> </button>
+                    <!-- <p><a href="customerinfo.html">Customer Info</a></p> -->
+                </div>
+    
+                
+    
+        
+    
+        </section>
+        </div>
+
+</body>
+</html>
